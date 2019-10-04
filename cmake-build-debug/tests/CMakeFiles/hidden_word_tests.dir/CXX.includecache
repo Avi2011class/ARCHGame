@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexander/Documents/Study/Tinkoff/Arch/Game/src/HiddenWord.h
+string
+-
+numeric
+-
+algorithm
+-
+vector
+-
+unordered_set
+-
+iterator
+-
+
+/home/alexander/Documents/Study/Tinkoff/Arch/Game/tests/hidden_word_tests.cpp
+gtest/gtest.h
+-
+../src/HiddenWord.h
+/home/alexander/Documents/Study/Tinkoff/Arch/Game/src/HiddenWord.h
+

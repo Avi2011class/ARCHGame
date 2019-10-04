@@ -1,0 +1,1 @@
+/usr/bin/g++-8  -g   CMakeFiles/Game.dir/src/HiddenWord.cpp.o CMakeFiles/Game.dir/src/Interface.cpp.o CMakeFiles/Game.dir/src/Dictionary.cpp.o CMakeFiles/Game.dir/src/main.cpp.o  -o Game 

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game">
+				<Option output="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/ipp/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/mkl/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/pstl/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/tbb/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/daal/include"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-linux-gnu"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/gcc-8.1/include"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game/fast">
+				<Option output="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/ipp/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/mkl/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/pstl/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/tbb/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/daal/include"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-linux-gnu"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/gcc-8.1/include"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option output="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/ipp/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/mkl/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/pstl/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/tbb/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/daal/include"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-linux-gnu"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/gcc-8.1/include"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/ipp/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/mkl/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/pstl/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/tbb/include"/>
+					<Add directory="/home/alexander/intel/compilers_and_libraries_2019.1.144/linux/daal/include"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-linux-gnu"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/gcc-8.1/include"/>
+					<Add directory="/usr/local/gcc-8.1/lib/gcc/x86_64-linux-gnu/8.1.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/src/Dictionary.cpp">
+			<Option target="Game"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/src/Dictionary.h">
+			<Option target="Game"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/src/HiddenWord.cpp">
+			<Option target="Game"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/src/HiddenWord.h">
+			<Option target="Game"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/src/Interface.cpp">
+			<Option target="Game"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/src/Interface.h">
+			<Option target="Game"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/src/main.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/tests/dictionary_tests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/tests/hidden_word_tests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/tests/interface_tests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Documents/Study/Tinkoff/Arch/Game/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/g++-8  -g   CMakeFiles/hidden_word_tests.dir/tests/hidden_word_tests.cpp.o  -o hidden_word_tests 

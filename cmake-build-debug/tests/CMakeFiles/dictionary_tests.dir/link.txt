@@ -1,0 +1,1 @@
+/usr/bin/g++-8  -g   CMakeFiles/dictionary_tests.dir/dictionary_tests.cpp.o CMakeFiles/dictionary_tests.dir/__/src/Dictionary.cpp.o  -o dictionary_tests 

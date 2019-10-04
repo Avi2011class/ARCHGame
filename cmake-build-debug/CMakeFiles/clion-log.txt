@@ -1,0 +1,4 @@
+/home/alexander/IDE/clion-2018.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/alexander/Documents/Study/Tinkoff/Arch/Game
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alexander/Documents/Study/Tinkoff/Arch/Game/cmake-build-debug

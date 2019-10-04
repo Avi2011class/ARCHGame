@@ -1,0 +1,1 @@
+/usr/bin/g++-8  -g   CMakeFiles/tests.dir/hidden_word_tests.cpp.o CMakeFiles/tests.dir/__/src/HiddenWord.cpp.o CMakeFiles/tests.dir/dictionary_tests.cpp.o CMakeFiles/tests.dir/__/src/Dictionary.cpp.o CMakeFiles/tests.dir/interface_tests.cpp.o CMakeFiles/tests.dir/__/src/Interface.cpp.o  -o tests -lgtest -lgtest_main -lpthread 
