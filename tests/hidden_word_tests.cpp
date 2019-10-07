@@ -10,7 +10,8 @@ TEST(HiddenWord, constructor) {
 
     EXPECT_NO_THROW(HiddenWord h1(correct_word_1));
     EXPECT_NO_THROW(HiddenWord h2(correct_word_2));
-
+    EXPECT_THROW(HiddenWord h3(incorrect_word_1), std::logic_error);
+    EXPECT_THROW(HiddenWord h3(incorrect_word_2), std::logic_error);
 }
 
 TEST(HiddenWord, correct_game) {

@@ -78,7 +78,7 @@ TEST(Interface, game_with_incorrect_and_repeated_symbols) {
     EXPECT_EQ(output.str(), expected_result);
 }
 
-TEST(Interface, loosed_game) sdu
+TEST(Interface, loosed_game) {
     std::stringstream input;
     input << "w o r a s";
     std::stringstream output;

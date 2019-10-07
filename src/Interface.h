@@ -21,13 +21,12 @@ public:
     bool is_finished() const;
 
 private:
-    HiddenWord hidden_word_;
+    std::istream& input_stream_;
+    std::ostream& output_stream_;
 
+    HiddenWord hidden_word_;
     bool is_finished_;
     int fails_limit_;
 
     void process_char();
-
-    std::istream& input_stream_;
-    std::ostream& output_stream_;
 };
