@@ -1,4 +1,4 @@
-CC=clang
+
 CXX=clang++
 
 CXXFLAGS=-Wall -Werror -Wextra -Ofast -march=native -std=c++17
@@ -10,9 +10,6 @@ SRC_HEADERS=src/Dictionary.h src/HiddenWord.h src/Interface.h
 
 
 MAIN=src/main.cpp
-
-build_dir:
-	mkdip -b build
 
 test_runfile.run: $(TEST_FILES) $(SRC_FILES) $(SRC_HEADERS)
 	$(CXX) $(CXXFLAGS)  $(SRC_FILES) $(TEST_FILES) $(TESTFLAGS) $(TESTLIBS) -I tests -o test_runfile.run
