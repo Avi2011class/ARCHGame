@@ -37,3 +37,6 @@ clean:
 	rm *.run
 	rm *.profdata
 	rm *.profraw
+
+pretty:
+	clang-format-6.0 -i -style Google **/*.cpp **/*.h
