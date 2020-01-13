@@ -21,3 +21,6 @@
 
 ### Full coverage report
     $ make coverage_full
+    
+### Apply coding style
+    $ make pretty
